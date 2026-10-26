@@ -172,6 +172,7 @@
   .work .card.featured { grid-column: span 3; }
   .work .card.featured:first-child { grid-column: span 6; }
   .work .card.featured:first-child .inner { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; align-items: center; }
+  .diagram { width: 100%; height: auto; border-radius: 12px; border: 1px solid var(--border); margin: 0 0 16px; background: #F7F4EE; }
   .label { display: inline-block; font-size: 12.5px; font-weight: 700; color: var(--accent); background: var(--accent-soft); padding: 3px 10px; border-radius: 999px; margin-bottom: 12px; align-self: flex-start; }
   .work h3 { font-size: 18.5px; }
   .work .card.featured:first-child h3 { font-size: 24px; }
@@ -403,6 +404,7 @@
 
     <div class="work">
       <article class="card featured">
+        <a href="img/ai-trading-assistant.svg" target="_blank" rel="noopener" title="Open full size"><img class="diagram" src="img/ai-trading-assistant.svg" alt="AI Trading Assistant flow diagram" width="900" loading="lazy"></a>
         <div class="inner">
           <div>
             <span class="label"><span lang="en">Featured · AI</span><span lang="ar">مميز · ذكاء اصطناعي</span></span>
@@ -417,6 +419,7 @@
       </article>
 
       <article class="card featured">
+        <a href="img/chatbot-evaluation.svg" target="_blank" rel="noopener" title="Open full size"><img class="diagram" src="img/chatbot-evaluation.svg" alt="Chatbot evaluation flow diagram" width="900" loading="lazy"></a>
         <span class="label"><span lang="en">Featured · AI evaluation</span><span lang="ar">مميز · تقييم الذكاء الاصطناعي</span></span>
         <h3><span lang="en">AI Chatbot: Training Data &amp; Pre-Launch Evaluation</span><span lang="ar">روبوت المحادثة: بيانات التدريب والتقييم قبل الإطلاق</span></h3>
         <p><span lang="en">Built a golden test dataset in Arabic dialects, MSA and English and an automated test runner with Excel reports, then wrote the go / no-go recommendation before launch.</span><span lang="ar">بنيت مجموعة بيانات اختبار مرجعية باللهجات العربية والفصحى والإنجليزية، وأداة اختبار آلية تُصدر تقارير Excel، وأعددت توصية للإدارة بشأن جاهزية الإطلاق.</span></p>
@@ -425,6 +428,7 @@
       </article>
 
       <article class="card featured">
+        <a href="img/market-data-platform.svg" target="_blank" rel="noopener" title="Open full size"><img class="diagram" src="img/market-data-platform.svg" alt="Market data platform diagram" width="900" loading="lazy"></a>
         <span class="label"><span lang="en">Featured · Team project</span><span lang="ar">مميز · مشروع فريق</span></span>
         <h3><span lang="en">Market Data Platform: QA, Front End &amp; Data</span><span lang="ar">منصة بيانات الأسواق: الاختبار والواجهة والبيانات</span></h3>
         <p><span lang="en">Tested the dashboard pages and validated their data, built front-end pages with AI-assisted development, fixed back-end data, and integrated the AI assistant.</span><span lang="ar">اختبرت صفحات لوحة المتابعة وتحققت من صحة بياناتها، وبنيت صفحات واجهة أمامية بمساعدة الذكاء الاصطناعي، وصحّحت بيانات في الواجهة الخلفية، ودمجت المساعد الذكي في المنصة.</span></p>
@@ -433,6 +437,7 @@
       </article>
 
       <article class="card">
+        <a href="img/support-analytics.svg" target="_blank" rel="noopener" title="Open full size"><img class="diagram" src="img/support-analytics.svg" alt="Support analytics flow diagram" width="900" loading="lazy"></a>
         <h3><span lang="en">Support Analytics Dashboard</span><span lang="ar">لوحة تحليلات الدعم الفني</span></h3>
         <p><span lang="en">An internal dashboard the support team uses to track first response time, reply rate and upgrades after support.</span><span lang="ar">لوحة متابعة داخلية يستخدمها فريق الدعم لقياس زمن الرد الأول، ومعدل الرد، والترقيات بعد التواصل مع الدعم.</span></p>
         <ul class="tags"><li>Python</li><li>FastAPI</li><li>SQLite</li></ul>
@@ -440,6 +445,7 @@
       </article>
 
       <article class="card">
+        <a href="img/churn-winback.svg" target="_blank" rel="noopener" title="Open full size"><img class="diagram" src="img/churn-winback.svg" alt="Churn and win-back flow diagram" width="900" loading="lazy"></a>
         <h3><span lang="en">Customer Churn &amp; Win-Back Segments</span><span lang="ar">تحليل إلغاء الاشتراكات واستعادة العملاء</span></h3>
         <p><span lang="en">Analyzed raw subscription and payment exports to find why subscribers leave, then built prioritized win-back segments by exit cause and payment method.</span><span lang="ar">حلّلت بيانات الاشتراكات والمدفوعات الخام لتحديد أسباب مغادرة المشتركين، ثم بنيت شرائح مرتّبة حسب الأولوية لاستعادة العملاء وفق سبب المغادرة وطريقة الدفع.</span></p>
         <ul class="tags"><li>Excel</li><li>Power Query</li><li>pandas</li></ul>
@@ -454,6 +460,7 @@
       </article>
 
       <article class="card">
+        <a href="img/automation.svg" target="_blank" rel="noopener" title="Open full size"><img class="diagram" src="img/automation.svg" alt="Automation workflow diagram" width="900" loading="lazy"></a>
         <h3><span lang="en">Business Automation</span><span lang="ar">أتمتة الأعمال</span></h3>
         <p><span lang="en">n8n and Zapier workflows for support tickets, reminders, failed-payment emails, onboarding and a daily market brief, plus GA4 and UTM tracking.</span><span lang="ar">سير عمل على n8n وZapier لتذاكر الدعم، والتذكيرات، ورسائل تعثّر الدفع، وتهيئة المشتركين الجدد، وملخص يومي للسوق، إلى جانب تتبّع GA4 وUTM.</span></p>
         <ul class="tags"><li>n8n</li><li>Zapier</li><li>Zendesk</li><li>GA4</li></ul>
