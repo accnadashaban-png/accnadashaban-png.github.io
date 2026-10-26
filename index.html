@@ -3,6 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-UyaYss1a7tGkLN7000W7Qw6RzRsCvtlDA9TkvMqvQ0Q=' 'sha256-GGLIPct4L6LTlHCQKtZ4F0U8mukGm5OY36beTVzCDFo='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Nada Shaban — Data Analyst & AI Evaluation Specialist</title>
 <meta name="description" content="Nada Shaban (ندى شعبان) — Data Analyst & AI Evaluation Specialist in Cairo, Egypt. Data analysis, n8n / Zapier automation and AI evaluation in Arabic and English. Open to freelance and remote work.">
 <meta name="author" content="Nada Shaban">
@@ -166,7 +168,7 @@
   .card p { color: var(--muted); font-size: 15px; margin: 0; }
 
   .work { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 16px; }
-  .work .card { grid-column: span 2; display: flex; flex-direction: column; }
+  .work .card { grid-column: span 3; display: flex; flex-direction: column; }
   .work .card.featured { grid-column: span 3; }
   .work .card.featured:first-child { grid-column: span 6; }
   .work .card.featured:first-child .inner { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; align-items: center; }
@@ -442,6 +444,13 @@
         <p><span lang="en">Found why subscribers cancel from raw exports, and built prioritized win-back segments by exit cause and payment method.</span><span lang="ar">حدّدت أسباب إلغاء المشتركين من البيانات الخام، وبنيت شرائح مرتّبة حسب الأولوية لاسترجاع العملاء وفق سبب الخروج وطريقة الدفع.</span></p>
         <ul class="tags"><li>Excel</li><li>Power Query</li><li>pandas</li></ul>
         <a class="more" href="https://github.com/accnadashaban-png/work-case-studies#5-customer-churn-diagnosis--win-back-segments" target="_blank" rel="noopener"><span lang="en">Read case study</span><span lang="ar">اقرأ دراسة الحالة</span><svg><use href="#i-arrow"/></svg></a>
+      </article>
+
+      <article class="card">
+        <h3><span lang="en">Market Data Pipelines</span><span lang="ar">خطوط معالجة بيانات الأسواق</span></h3>
+        <p><span lang="en">Python pipelines that pull stock data from Interactive Brokers, FMP and TradingView, compute beta and volatility, and classify sectors and themes with an LLM.</span><span lang="ar">خطوط معالجة بلغة Python تجمع بيانات الأسهم من Interactive Brokers وFMP وTradingView، وتحسب معامل بيتا والتذبذب، وتصنّف القطاعات والموضوعات باستخدام نموذج لغوي.</span></p>
+        <ul class="tags"><li>Python</li><li>pandas</li><li>APIs</li><li>LLMs</li></ul>
+        <a class="more" href="https://github.com/accnadashaban-png/work-case-studies#6-market-data-pipelines" target="_blank" rel="noopener"><span lang="en">Read case study</span><span lang="ar">اقرأ دراسة الحالة</span><svg><use href="#i-arrow"/></svg></a>
       </article>
 
       <article class="card">
