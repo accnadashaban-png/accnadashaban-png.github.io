@@ -181,6 +181,9 @@
   .more { margin-top: auto; padding-top: 16px; font-weight: 600; font-size: 15px; display: inline-flex; align-items: center; gap: 6px; }
   .more svg { width: 16px; height: 16px; }
   html[dir="rtl"] .more svg, html[dir="rtl"] .flip { transform: scaleX(-1); }
+  .note-box { display: flex; gap: 14px; align-items: flex-start; background: var(--accent-soft); border: 1px solid var(--border); border-radius: 16px; padding: 16px 20px; margin: -8px 0 26px; }
+  .note-box svg { width: 22px; height: 22px; color: var(--accent); flex: none; margin-top: 3px; }
+  .note-box p { margin: 0; font-size: 15.5px; }
   .note { margin-top: 18px; font-size: 14.5px; color: var(--muted); display: flex; gap: 8px; align-items: flex-start; }
   .note svg { width: 18px; height: 18px; flex: none; margin-top: 3px; }
 
@@ -402,6 +405,7 @@
     <p class="eyebrow"><span lang="en">Selected work</span><span lang="ar">أعمال مختارة</span></p>
     <h2><span lang="en">Case studies</span><span lang="ar">دراسات حالة</span></h2>
     <p class="section-intro"><span lang="en">Projects from my current role at Kanz MS (2026 – present).</span><span lang="ar">مشاريع من عملي الحالي في Kanz MS (2026 – حتى الآن).</span></p>
+    <div class="note-box"><svg><use href="#i-lock"/></svg><p><span lang="en"><b>Some of my best work is private.</b> The code and data belong to my employer, not only to me, so I can't share them. Below are written case studies of what I did, and for the main projects I rebuilt <b>public versions from scratch</b> on sample data so you can see real, working code.</span><span lang="ar"><b>جزء كبير من أفضل أعمالي خاص.</b> الأكواد والبيانات ملك لجهة عملي وليست ملكي وحدي، لذلك لا يمكنني مشاركتها. فيما يلي دراسات حالة مكتوبة لما قمت به، ولأهم المشاريع أعدت بناء <b>نسخ عامة من الصفر</b> على بيانات تجريبية لتشاهد كودًا حقيقيًا يعمل.</span></p></div>
 
     <div class="work">
       <article class="card featured">
@@ -415,6 +419,7 @@
             <p><span lang="en">A bilingual (Arabic + English) assistant that answers market questions by turning them into safe, read-only SQL. Built with a small engineering team; I worked on design, prompts, tools, testing and integration.</span><span lang="ar">مساعد ثنائي اللغة (عربي وإنجليزي) يجيب عن أسئلة السوق بتحويلها إلى استعلامات SQL آمنة للقراءة فقط. بُني مع فريق هندسي صغير، وعملت فيه على التصميم وصياغة الأوامر (Prompts) والأدوات والاختبار والدمج.</span></p>
             <ul class="tags"><li>Python</li><li>LangChain</li><li>Gemini</li><li>PostgreSQL</li><li>FastAPI</li><li>MLflow</li></ul>
             <a class="more" href="https://github.com/accnadashaban-png/work-case-studies#1-ai-trading-assistant" target="_blank" rel="noopener"><span lang="en">Read case study</span><span lang="ar">اقرأ دراسة الحالة</span><svg><use href="#i-arrow"/></svg></a>
+            <a class="more" href="https://github.com/accnadashaban-png/bilingual-market-assistant" target="_blank" rel="noopener"><span lang="en">See the public code version</span><span lang="ar">شاهد النسخة العامة من الكود</span><svg><use href="#i-arrow"/></svg></a>
           </div>
         </div>
       </article>
@@ -426,6 +431,7 @@
         <p><span lang="en">Built a golden test dataset in Arabic dialects, MSA and English and an automated test runner with Excel reports, then wrote the go / no-go recommendation before launch.</span><span lang="ar">بنيت مجموعة بيانات اختبار مرجعية باللهجات العربية والفصحى والإنجليزية، وأداة اختبار آلية تُصدر تقارير Excel، وأعددت توصية للإدارة بشأن جاهزية الإطلاق.</span></p>
         <ul class="tags"><li>LLM evaluation</li><li>Python</li><li>Excel</li><li>Prompt writing</li></ul>
         <a class="more" href="https://github.com/accnadashaban-png/work-case-studies#2-customer-facing-ai-chatbot-training-data--pre-launch-evaluation" target="_blank" rel="noopener"><span lang="en">Read case study</span><span lang="ar">اقرأ دراسة الحالة</span><svg><use href="#i-arrow"/></svg></a>
+        <a class="more" style="padding-top:6px" href="https://github.com/accnadashaban-png/arabic-chatbot-eval" target="_blank" rel="noopener"><span lang="en">See the public code version</span><span lang="ar">شاهد النسخة العامة من الكود</span><svg><use href="#i-arrow"/></svg></a>
       </article>
 
       <article class="card featured">
@@ -443,6 +449,7 @@
         <p><span lang="en">An internal dashboard the support team uses to track first response time, reply rate and upgrades after support.</span><span lang="ar">لوحة متابعة داخلية يستخدمها فريق الدعم لقياس زمن الرد الأول، ومعدل الرد، والترقيات بعد التواصل مع الدعم.</span></p>
         <ul class="tags"><li>Python</li><li>FastAPI</li><li>SQLite</li></ul>
         <a class="more" href="https://github.com/accnadashaban-png/work-case-studies#4-support-analytics-dashboard" target="_blank" rel="noopener"><span lang="en">Read case study</span><span lang="ar">اقرأ دراسة الحالة</span><svg><use href="#i-arrow"/></svg></a>
+        <a class="more" style="padding-top:6px" href="https://github.com/accnadashaban-png/customer-support-analytics" target="_blank" rel="noopener"><span lang="en">See the public code version</span><span lang="ar">شاهد النسخة العامة من الكود</span><svg><use href="#i-arrow"/></svg></a>
       </article>
 
       <article class="card">
@@ -476,6 +483,24 @@
     <p class="eyebrow"><span lang="en">Public code</span><span lang="ar">أكواد منشورة</span></p>
     <h2><span lang="en">Projects on GitHub</span><span lang="ar">مشاريعي على GitHub</span></h2>
     <div class="oss">
+      <a class="card" href="https://github.com/accnadashaban-png/bilingual-market-assistant" target="_blank" rel="noopener">
+        <span class="label"><span lang="en">New · AI</span><span lang="ar">جديد · ذكاء اصطناعي</span></span>
+        <span class="repo"><svg><use href="#i-repo"/></svg>bilingual-market-assistant</span>
+        <p><span lang="en">ChatGPT-style assistant that answers market questions in Arabic dialects and English: LangGraph pipeline, typed tools, safe text-to-SQL, a streaming chat widget for dashboards, red-team tests and a golden-dataset eval.</span><span lang="ar">مساعد ذكاء اصطناعي بأسلوب ChatGPT يجيب عن أسئلة السوق باللهجات العربية والإنجليزية: مسار معالجة LangGraph، وأدوات محددة الأنواع، واستعلامات SQL آمنة، وواجهة محادثة تُدمج في لوحات المتابعة، واختبارات اختراق، وتقييم على مجموعة أسئلة مرجعية.</span></p>
+        <ul class="tags"><li>LangGraph</li><li>FastAPI</li><li>LLM</li><li>Red teaming</li></ul>
+      </a>
+      <a class="card" href="https://github.com/accnadashaban-png/arabic-chatbot-eval" target="_blank" rel="noopener">
+        <span class="label"><span lang="en">New · AI evaluation</span><span lang="ar">جديد · تقييم الذكاء الاصطناعي</span></span>
+        <span class="repo"><svg><use href="#i-repo"/></svg>arabic-chatbot-eval</span>
+        <p><span lang="en">Tests a chatbot on a tagged golden set across Arabic dialects and English, and writes an Excel report by dialect and intent.</span><span lang="ar">يختبر روبوت المحادثة على مجموعة أسئلة مرجعية باللهجات العربية والإنجليزية، ويُصدر تقرير Excel حسب اللهجة ونوع السؤال.</span></p>
+        <ul class="tags"><li>Python</li><li>pandas</li><li>Excel</li><li>LLM evaluation</li></ul>
+      </a>
+      <a class="card" href="https://github.com/accnadashaban-png/customer-support-analytics" target="_blank" rel="noopener">
+        <span class="label"><span lang="en">New · Data analytics</span><span lang="ar">جديد · تحليل بيانات</span></span>
+        <span class="repo"><svg><use href="#i-repo"/></svg>customer-support-analytics</span>
+        <p><span lang="en">Support response time, reply rate and upgrades after support, with bot filtering, UTC-safe metrics, idempotent sync and a filterable dashboard.</span><span lang="ar">قياس زمن رد الدعم ومعدل الرد والترقيات بعد التواصل مع الدعم، مع استبعاد الرسائل الآلية، وحسابات دقيقة بتوقيت UTC، ومزامنة آمنة، ولوحة متابعة قابلة للتصفية.</span></p>
+        <ul class="tags"><li>Python</li><li>FastAPI</li><li>SQLite</li><li>KPIs</li></ul>
+      </a>
       <a class="card" href="https://github.com/accnadashaban-png/market-data-pipeline" target="_blank" rel="noopener">
         <span class="repo"><svg><use href="#i-repo"/></svg>market-data-pipeline</span>
         <p><span lang="en">Stock and crypto screener ranking tickers by momentum, relative strength vs SPY and the 50-day moving average.</span><span lang="ar">أداة فرز للأسهم والعملات الرقمية ترتّبها حسب الزخم والقوة النسبية مقارنة بـ SPY والمتوسط المتحرك لـ 50 يومًا.</span></p>
