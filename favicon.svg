@@ -1,1 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="16" fill="#1F5A4F"/><text x="32" y="41" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="700" fill="#F7F4EE" text-anchor="middle">NS</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="NS">
+  <defs>
+    <linearGradient id="ns-tile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0F766E"/>
+      <stop offset="1" stop-color="#1E2F6B"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#ns-tile)"/>
+  <g fill="none" stroke="#F8FAFC" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="12,46 12,19 30,45 30,18"/>
+    <path d="M53 23 C52 17 45.5 16 42.5 18.5 C39 21.5 40.5 26 45 28.5 L48 30 C52.5 32.5 53.5 38 50 42 C46.5 45.5 40 45 38 41"/>
+  </g>
+  <g fill="#FDBA74">
+    <circle cx="12" cy="19" r="2.8"/>
+    <circle cx="30" cy="45" r="2.8"/>
+    <circle cx="30" cy="18" r="3.2"/>
+    <path d="M55.5 6.5 L56.8 10.2 L60.5 11.5 L56.8 12.8 L55.5 16.5 L54.2 12.8 L50.5 11.5 L54.2 10.2 Z"/>
+  </g>
+</svg>
